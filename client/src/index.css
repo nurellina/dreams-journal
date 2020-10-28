@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-container {
+  font-family: "Fjalla One", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  padding-bottom: 70px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.dream-entry-container {
+  display: flex;
+  justify-content: center;
+}
+.dream-entry {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.buttons-container {
+  padding: 20px 0 70px;
+  margin: auto;
+}
+.dream-body {
+  padding: 20px 0;
+}
+a:link {
+  text-decoration: none;
+}
